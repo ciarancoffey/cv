@@ -14,6 +14,7 @@ html:  clean $(HTML)
 
 %.pdf:  %.md $(LATEX_TEMPLATE)
 	python resume.py tex < $< | pandoc $(PANDOCARGS) --template=$(LATEX_TEMPLATE) -H header.tex -o $@
+	python resume.py tex < $< | pandoc $(PANDOCARGS) --template=$(LATEX_TEMPLATE) -H header.tex -o $@.tex
 
 ifeq ($(OS),Windows_NT)
   # on Windows
@@ -24,7 +25,7 @@ else
 endif
 
 clean:
-	$(RM) *.html *.pdf
+	$(RM) *.html *.pdf *.pdf.tex
 
 $(LATEX_TEMPLATE):
 	git submodule update --init
