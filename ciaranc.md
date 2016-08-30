@@ -2,8 +2,9 @@ Ciarán Coffey
 ===============
 
 <ciaran@ccoffey.ie>
-<http://linkedin.com/in/ciarancoffey>
-<http://github.com/ciarancoffey>
+[linkedin/in/ciarancoffey](http://linkedin.com/in/ciarancoffey)
+[github.com/ciarancoffey](http://github.com/ciarancoffey)
+
 
 Profile
 ---------
