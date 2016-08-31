@@ -3,58 +3,67 @@ Ciarán Coffey
 
 <ciaran@ccoffey.ie>
 [linkedin/in/ciarancoffey](http://linkedin.com/in/ciarancoffey)
-[github.com/ciarancoffey](http://github.com/ciarancoffey)
 
 
 Profile
 ---------
 
-*   Creating beautiful resumés from simple Markdown documents
+*   I believe in automation and defining infrastructure as code.
+ I enjoy working with my colleagues to solve issues using the appropiate 
+tools. I am at home in a terminal.
 
 
 Work Experience
 ---------------
 
-*   **Word Processor** (Redmond, WA)
+*   **7digital** (London)
 
-    *Junior Resumé Maker*, 2006 - 2007
+    *Systems Administrator*, June 2015 - Present
+ 
+    Building, testing, managing and improving the full range of 7digital's
+    physical, virtual and cloud based infrastructure. 
+    -   Windows and Linux server administration
+    -   Physical, virtual (KVM, ESXi, IMS) and cloud (AWS, Google) infrastructure
+    -   Automation with Chef and CFEngine
+    -   Networking (Cisco, Juniper, Iptables)
+    -   Continuous Integration / Delivery
+    -   Loadbalancing with Nginx, HAProxy, Keepalived
+    -   Building & maintaining large scale storage (Dell MD, GlusterFS, Google 
+    -   Migrated old hardware to services running in AWS, and Google cloud
+    -   Managing & improving our logging platform (Redis, Logstash, Elasticsearch)
+        cloud storage)
+    -   Diagnosing problems using Zabbix, application logs, and other sources of metrics
+    -   Participated in 24/7 on-call rotation
+    -   A small, agile team, collaborating with each other and the company
+     as a whole
 
-    -   Intermingled presentation and content
-    -   Styling was a pain, so either didn't do it or found a half-decent
-        template and didn't mess with it
+*   **Citrix** (Dublin)
 
-*   **\LaTeX\ + pdflatex**
-
-    *Senior Resumé Maker*, 2008 - 2010
+    *Escalation Engineer \*nix *, Jun 2014 -May 2015
 
     -   Edited verbose \LaTeX\ documents in a text editor
     -   Mixed content and presentation to achieve pixel-perfection
     -   Installed and configured the unusual TeX setups required by the
         best-looking \LaTeX\ resumés
 
-*   **LinkedIn, StackOverflow Careers, vizualize.me, etc**
+    * Escalation Engineer Cloudplatform*, Oct 2013 -Jun 2014
+ o
+ 
+   * Senior Xen/Unix Support Engineer*, Aug 2011 - Oct 2013  
 
-    *Web Resumé Intern*, August 2010
+   - Something
 
-    -   Entered data, adapting to different data models and formatting
-        limitations
-    -   Attempted to customize PDF exports and remove default resumé elements,
-        to no avail
+*   **Amazon** (Dublin)
 
-*   **Markdown with Pandoc**
+   *  Datacentre Engineer *, Mar 2011 - Aug 2011
 
-    *Resumé Architect*, February 2011 - present
+   - Something
 
-    -   Write in one format (Markdown), convert to many formats (PDF, HTML, ODT,
-        DOCX, and more)
-    -   Style HTML output with CSS and PDF output with a custom \LaTeX\ header
-    -   Use a simple pre-processor to define per-format operations on the
-        Markdown input or its parts, such as moving contact information to the
-        top right of the page in both HTML and PDF output.
-    -   Use a text-based resumé when needed in a pinch
-    -   Use version control, including free hosting on Github
+*   **Ericsson** (Dublin)
 
+   *Solutions Integration Engineer*, Sep 2007 - Oct 2010
 
+   - Something
 Education
 ---------
 
