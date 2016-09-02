@@ -1,4 +1,4 @@
-# Resume [![Example](https://img.shields.io/badge/example-pdf-green.svg)](https://github.com/mwhite/resume/raw/master/resume.pdf)
+# Resume [![Example](https://img.shields.io/badge/example-pdf-green.svg)](https://github.com/ciarancoffey/cv/blob/ciaranc/ciaranc.pdf)
 
 This is a simple Markdown resumé template, LaTeX header, and pre-processing
 script that can be used with [Pandoc](http://johnmacfarlane.net/pandoc/) to generate
