@@ -51,7 +51,7 @@ Work Experience
     -   Worked as a bridge between the dev teams and end customers.
     -   Debugging for the Citrix suite of products that ran on Linux, Solaris and AIX
     -   Xenserver virtualization and VMware ESXi
-    -   Storage: Fiber channel,HBA & software iSCSI, NFS, CIFS 
+    -   Storage: Fibre channel,HBA & software iSCSI, NFS, CIFS 
     -   Hardware, driver and OS bug finding and workarounds
     -   Orchestration with Cloudplatform
     -   Linux, Android, MacOS and OSX receivers for XenApp/XenDesktop 
@@ -66,7 +66,7 @@ Work Experience
     *Senior Xen/Unix Support Engineer*, Aug 2011 - Oct 2013  
 
     -   Worked on support issue directly with partners and customers.
-    -   Intial fault finding, fixing and RCA on the same products as suite as above.
+    -   Initial fault finding, fixing and RCA on the same products as suite as above.
 
 *   **Amazon Data Services** (Dublin)
 
@@ -76,7 +76,7 @@ Work Experience
 
     -   Fault finding in hardware, using linux tools to inspect hardware
     -   Fixing the above systems
-    -   Repsonding to emergency situatuations in a 24/7 environment
+    -   Responding to emergency situations in a 24/7 environment
     -   Managing spare parts
     -   Physical systems installation, racks, power, network, etc.
 
@@ -89,7 +89,7 @@ Work Experience
     Local building and onsite installation of hardware and integration into networks of Lawful Interpect equipment.
 
     -   Solaris (Sparc and x86)
-    -   Suse Enterprise x86
+    -   SuSe Enterprise x86
     -   Network debugging
     -   Acceptance testing with customers
     -   Provided training both "on the job" and in class rooms
