@@ -2,15 +2,17 @@ Ciarán Coffey
 ===============
 
 <ciaran@ccoffey.ie>
-[linkedin/in/ciarancoffey](http://linkedin.com/in/ciarancoffey)
+[linkedin.com/in/ciarancoffey](http://linkedin.com/in/ciarancoffey)
 
 
 Profile
 ---------
 
-*   I believe in automation and defining infrastructure as code.
- I enjoy working with my colleagues to solve issues using the appropiate 
-tools. I am at home in a terminal.
+
+* I am passionate about reliable systems.
+  I believe in automation and defining infrastructure as code.
+ I enjoy working with my colleagues to solve issues using the appropriate
+tools.
 
 
 Work Experience
@@ -18,65 +20,98 @@ Work Experience
 
 *   **7digital** (London)
 
+    7digital is mainly a B2B music provider of 50 million+ tracks and radio streams to a global audience
+
     *Systems Administrator*, June 2015 - Present
- 
+
     Building, testing, managing and improving the full range of 7digital's
     physical, virtual and cloud based infrastructure. 
+    -   Loadbalancing with Nginx, HAProxy, Keepalived
+    -   Nginx, apache and IIS web servers
+    -   Cache management with squid, varnish and Fastly CDN
     -   Windows and Linux server administration
+    -   Strong emphasis on Continuous Integration / Delivery
     -   Physical, virtual (KVM, ESXi, IMS) and cloud (AWS, Google) infrastructure
     -   Automation with Chef and CFEngine
     -   Networking (Cisco, Juniper, Iptables)
-    -   Continuous Integration / Delivery
-    -   Loadbalancing with Nginx, HAProxy, Keepalived
-    -   Building & maintaining large scale storage (Dell MD, GlusterFS, Google 
+    -   Building & maintaining large scale storage (Dell MD, GlusterFS, Google cloud storage)
     -   Migrated old hardware to services running in AWS, and Google cloud
     -   Managing & improving our logging platform (Redis, Logstash, Elasticsearch)
-        cloud storage)
-    -   Diagnosing problems using Zabbix, application logs, and other sources of metrics
+    -   Diagnosing problems using Zabbix, application logs, kibana, grafana and other sources of metrics
     -   Participated in 24/7 on-call rotation
     -   A small, agile team, collaborating with each other and the company
      as a whole
 
 *   **Citrix** (Dublin)
 
+    Citrix have a broad range of products enabling people to work from any device anywhere.
+
     *Escalation Engineer \*nix *, Jun 2014 -May 2015
 
-    -   Edited verbose \LaTeX\ documents in a text editor
-    -   Mixed content and presentation to achieve pixel-perfection
-    -   Installed and configured the unusual TeX setups required by the
-        best-looking \LaTeX\ resumés
+    -   Worked as a bridge between the dev teams and end customers.
+    -   Debugging for the Citrix suite of products that ran on Linux, Solaris and AIX
+    -   Xenserver virtualization and VMware ESXi
+    -   Storage: Fiber channel,HBA & software iSCSI, NFS, CIFS 
+    -   Hardware, driver and OS bug finding and workarounds
+    -   Orchestration with Cloudplatform
+    -   Linux, Android, MacOS and OSX receivers for XenApp/XenDesktop 
+    -   Network fault finding from the internet into internal corporate networks, TLS/SSL
+    -   Languages involved: Python, Bash, Java, OCaml
 
-    * Escalation Engineer Cloudplatform*, Oct 2013 -Jun 2014
- o
- 
-   * Senior Xen/Unix Support Engineer*, Aug 2011 - Oct 2013  
+    *Escalation Engineer Cloudplatform*, Oct 2013 -Jun 2014
 
-   - Something
+    -   Dedicated Escalation Engineer for select enterprise EMEA customers
+    -   Managing hot issues, prioritising cases and bugs with the dev teams
 
-*   **Amazon** (Dublin)
+    *Senior Xen/Unix Support Engineer*, Aug 2011 - Oct 2013  
 
-   *  Datacentre Engineer *, Mar 2011 - Aug 2011
+    -   Worked on support issue directly with partners and customers.
+    -   Intial fault finding, fixing and RCA on the same products as suite as above.
 
-   - Something
+*   **Amazon Data Services** (Dublin)
 
-*   **Ericsson** (Dublin)
+    Amazon, the online retail and cloud computing giant.
 
-   *Solutions Integration Engineer*, Sep 2007 - Oct 2010
+    *Datacentre engineer*, Mar 2011 - Aug 2011 
 
-   - Something
+    -   Fault finding in hardware, using linux tools to inspect hardware
+    -   Fixing the above systems
+    -   Repsonding to emergency situatuations in a 24/7 environment
+    -   Managing spare parts
+    -   Physical systems installation, racks, power, network, etc.
+
+*   **LM Ericsson** (Dublin)
+
+    Ericsson provide telecommunications equipment and services globally.
+
+    *Solutions Integration Engineer*, Sep 2007 - Oct 2010
+
+    Local building and onsite installation of hardware and integration into networks of Lawful Interpect equipment.
+
+    -   Solaris (Sparc and x86)
+    -   Suse Enterprise x86
+    -   Network debugging
+    -   Acceptance testing with customers
+    -   Provided training both "on the job" and in class rooms
+    -   Hardware ordering and building
+
 Education
 ---------
 
-*   **Github University** (World Wide Web)
+*   **Kevin St. DIT** (Dublin)
 
-    *B.S. in Submodules*, May 2012
+    *BSc Hons 2:1, Computer Science (FT-228)*,  2003-2007
 
 
-Skills
+Hobbies
 ------
 
-*   Very experienced with Python, Markdown, \LaTeX
+*   Practicing python, automating systems, letting computers do the work
 
-*   Familiar with GNU Make, bash
+*   Staying active, weather it be going to the gym, running or cycling
 
+*   Small scale electronics and building systems from them
 
+*   Bicycles and motorbikes, using, fixing and building
+
+*   PC gaming, but it's low on my priority list
