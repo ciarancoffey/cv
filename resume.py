@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # encoding: utf-8
 """
 resume.py is a pre-processor for Markdown resumes, targeting the pandoc
