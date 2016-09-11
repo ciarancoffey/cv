@@ -62,6 +62,7 @@ Work Experience
 
     -   Dedicated Escalation Engineer for select enterprise EMEA customers
     -   Managing hot issues, prioritising cases and bugs with the dev teams
+\pagebreak
 
     *Senior Xen/Unix Support Engineer*, Aug 2011 - Oct 2013  
 
@@ -108,7 +109,7 @@ Hobbies
 
 *   Practicing python, automating systems, letting computers do the work
 
-*   Staying active, weather it be going to the gym, running or cycling
+*   Staying active, whether it be going to the gym, running or cycling.
 
 *   Small scale electronics and building systems from them
 
