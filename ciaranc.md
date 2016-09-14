@@ -22,7 +22,7 @@ Work Experience
 
     7digital is mainly a B2B music provider of 50 million+ tracks and radio streams to a global audience
 
-    *Systems Administrator*, June 2015 - Present
+    *Web Operations Engineer*, June 2015 - Present
 
     Building, testing, managing and improving the full range of 7digital's
     physical, virtual and cloud based infrastructure. 
