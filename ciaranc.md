@@ -77,7 +77,6 @@ Work Experience
 
     -   Dedicated Escalation Engineer for select enterprise EMEA customers
     -   Managing hot issues, prioritising cases and bugs with the dev teams
-\pagebreak
 
     *Senior Xen/Unix Support Engineer*, Aug 2011 - Oct 2013  
 
