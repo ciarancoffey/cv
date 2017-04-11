@@ -18,11 +18,26 @@ tools.
 Work Experience
 ---------------
 
+*   **RapidRatings International** (Dublin)
+
+    RapidRatings is the creator of the proprietary FHR® (Financial Health Rating), the industry’s leading assessment of public and private company financial health.
+
+    *DevOps Engineer*, Nov 2016 - Present
+
+    Part of a small team that manages all of the infrastructure and deployment needs of the company
+    -   AWS configuartion via Terraform
+    -   Instance configuartion with SaltStack and Jinja templates
+    -   Code Deployemnts with Fabric
+    -   Tests suites and deployments with Jenkins
+    -   Infrastructure monitoring via Prometheus
+    -   Security monitoring via Alertlogic
+    -   Participated in 24/7 on-call rotation
+
 *   **7digital** (London)
 
     7digital is mainly a B2B music provider of 50 million+ tracks and radio streams to a global audience
 
-    *Web Operations Engineer*, June 2015 - Present
+    *Web Operations Engineer*, June 2015 - Nov 2016
 
     Building, testing, managing and improving the full range of 7digital's
     physical, virtual and cloud based infrastructure. 
@@ -46,7 +61,7 @@ Work Experience
 
     Citrix have a broad range of products enabling people to work from any device anywhere.
 
-    *Escalation Engineer \*nix *, Jun 2014 -May 2015
+    *Escalation Engineer \*nix *, Jun 2014 - May 2015
 
     -   Worked as a bridge between the dev teams and end customers.
     -   Debugging for the Citrix suite of products that ran on Linux, Solaris and AIX
