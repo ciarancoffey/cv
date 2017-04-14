@@ -1,0 +1,301 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+\date{}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{tgpagella}
+\ifxetex
+  \usepackage{xeCJK}
+  \setCJKmainfont{WenQuanYi Zen Hei}
+  %\setmainfont[Mapping=tex-text]{TeX Gyre Pagella}
+\fi
+
+\usepackage{titlesec}
+\titleformat{\section}{\huge\bfseries}{\thesection}{1em}{}
+\titlespacing{\section}{0pt}{-2em}{1em}
+\titleformat{\subsection}{\large\bfseries\MakeUppercase}{\thesubsection}{1em}{}
+
+%\usepackage{multicol}
+\pagestyle{empty}
+\hyphenation{Media-Wiki}
+
+\renewcommand{\labelitemi}{}
+\renewcommand{\labelitemii}{\raise .5ex\hbox{\tiny$\blacktriangleright$}}
+
+% from http://tex.stackexchange.com/a/29796/16139
+\newsavebox{\zerobox}
+\newenvironment{nospace}
+  {\par\edef\theprevdepth{\the\prevdepth}\nointerlineskip
+   \setbox\zerobox=\vtop to 0pt\bgroup
+   \hrule height0pt\kern\dimexpr\baselineskip-\topskip\relax
+  }
+  {\par\vss\egroup\ht\zerobox=0pt \wd\zerobox=0pt \dp\zerobox=0pt
+   \box\zerobox}
+
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\begin{document}
+
+\begin{nospace}\begin{flushright}
+\vspace{-2em}\href{mailto:marchard@gmail.com}{marchard@gmail.com}
+
+CORU Membership Number: DI008266
+\end{flushright}\end{nospace}
+
+\section{Michelle Archard}\label{michelle-archard}
+
+\subsection{Work Experience}\label{work-experience}
+
+\begin{itemize}
+\item
+  \textbf{St.~Vincents University Hospital} (Dublin)
+
+  \emph{Dietitian}, Nov 2016 - Present
+
+  Dietitian
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Surgical Dietitian covering adult inpatients including vascular,
+    urology, gynacology, plastics, ENT and oncology specialities
+    (0.7WTE).
+  \item
+    Additionaly cover ICU seeing a variety of patients on continuous
+    dialysis +/- ventilated / intubated (0.3WTE).
+  \item
+    Involved in MDT Major Limb Amputee Pathway including contributing to
+    patient pathway booklet for SVUH.
+  \item
+    See patients requiring variety of dietetic interventions including
+    food fortification, renal diet, oral nutritional supplements,
+    enteral feeding and total parenteral nutrition.
+  \item
+    Liaise with community dietitians and other hospitals regarding
+    patient transfer / handover.
+  \end{itemize}
+\item
+  \textbf{7digital} (London)
+
+  7digital is mainly a B2B music provider of 50 million+ tracks and
+  radio streams to a global audience
+
+  \emph{Web Operations Engineer}, June 2015 - Nov 2016
+
+  Building, testing, managing and improving the full range of 7digital's
+  physical, virtual and cloud based infrastructure.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Loadbalancing with Nginx, HAProxy, Keepalived
+  \item
+    Nginx, apache and IIS web servers
+  \item
+    Cache management with squid, varnish and Fastly CDN
+  \item
+    Windows and Linux server administration
+  \item
+    Strong emphasis on Continuous Integration / Delivery
+  \item
+    Physical, virtual (KVM, ESXi, IMS) and cloud (AWS, Google)
+    infrastructure
+  \item
+    Automation with Chef and CFEngine
+  \item
+    Networking (Cisco, Juniper, Iptables)
+  \item
+    Building \& maintaining large scale storage (Dell MD, GlusterFS,
+    Google cloud storage)
+  \item
+    Migrated old hardware to services running in AWS, and Google cloud
+  \item
+    Managing \& improving our logging platform (Redis, Logstash,
+    Elasticsearch)
+  \item
+    Diagnosing problems using Zabbix, application logs, kibana, grafana
+    and other sources of metrics
+  \item
+    Participated in 24/7 on-call rotation
+  \item
+    A small, agile team, collaborating with each other and the company
+    as a whole
+  \end{itemize}
+\item
+  \textbf{Citrix} (Dublin)
+
+  Citrix have a broad range of products enabling people to work from any
+  device anywhere.
+
+  \emph{Escalation Engineer *nix }, Jun 2014 - May 2015
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Worked as a bridge between the dev teams and end customers.
+  \item
+    Debugging for the Citrix suite of products that ran on Linux,
+    Solaris and AIX
+  \item
+    Xenserver virtualization and VMware ESXi
+  \item
+    Storage: Fibre channel,HBA \& software iSCSI, NFS, CIFS
+  \item
+    Hardware, driver and OS bug finding and workarounds
+  \item
+    Orchestration with Cloudplatform
+  \item
+    Linux, Android, MacOS and OSX receivers for XenApp/XenDesktop
+  \item
+    Network fault finding from the internet into internal corporate
+    networks, TLS/SSL
+  \item
+    Languages involved: Python, Bash, Java, OCaml
+  \end{itemize}
+
+  \emph{Escalation Engineer Cloudplatform}, Oct 2013 -Jun 2014
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Dedicated Escalation Engineer for select enterprise EMEA customers
+  \item
+    Managing hot issues, prioritising cases and bugs with the dev teams
+  \end{itemize}
+
+  \emph{Senior Xen/Unix Support Engineer}, Aug 2011 - Oct 2013
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Worked on support issue directly with partners and customers.
+  \item
+    Initial fault finding, fixing and RCA on the same products as suite
+    as above.
+  \end{itemize}
+\item
+  \textbf{Amazon Data Services} (Dublin)
+
+  Amazon, the online retail and cloud computing giant.
+
+  \emph{Datacentre engineer}, Mar 2011 - Aug 2011
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Fault finding in hardware, using linux tools to inspect hardware
+  \item
+    Fixing the above systems
+  \item
+    Responding to emergency situations in a 24/7 environment
+  \item
+    Managing spare parts
+  \item
+    Physical systems installation, racks, power, network, etc.
+  \end{itemize}
+\item
+  \textbf{LM Ericsson} (Dublin)
+
+  Ericsson provide telecommunications equipment and services globally.
+
+  \emph{Solutions Integration Engineer}, Sep 2007 - Oct 2010
+
+  Local building and onsite installation of hardware and integration
+  into networks of Lawful Interpect equipment.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Solaris (Sparc and x86)
+  \item
+    SuSe Enterprise x86
+  \item
+    Network debugging
+  \item
+    Acceptance testing with customers
+  \item
+    Provided training both ``on the job'' and in class rooms
+  \item
+    Hardware ordering and building
+  \end{itemize}
+\end{itemize}
+
+\subsection{Education}\label{education}
+
+\begin{itemize}
+\item
+  \textbf{Kevin St.~DIT} (Dublin)
+
+  \emph{BSc Hons 2:1, Computer Science (FT-228)}, 2003-2007
+\end{itemize}
+
+\subsection{Hobbies}\label{hobbies}
+
+\begin{itemize}
+\item
+  Practicing python, automating systems, letting computers do the work
+\item
+  Staying active, whether it be going to the gym, running or cycling.
+\item
+  Small scale electronics and building systems from them
+\item
+  Bicycles and motorbikes, using, fixing and building
+\item
+  PC gaming, but it's low on my priority list
+\end{itemize}
+
+\end{document}
