@@ -45,7 +45,7 @@ import sys
 import re
 
 
-GRAVATAR = "https://en.gravatar.com/userimage/109448352/991a06d7b68a89a21950bba8a5ca0c8d.jpg?size=200"
+GRAVATAR = "https://ccoffey.ie/Images/Michelle_200.jpg"
 
 
 class Processor(object):
