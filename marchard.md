@@ -15,103 +15,62 @@ Work Experience
     -   Surgical Dietitian covering adult inpatients including vascular, urology, gynacology, plastics, ENT and oncology specialities (0.7WTE). 
     -   Additionaly cover ICU seeing a variety of patients on continuous dialysis +/- ventilated / intubated (0.3WTE). 
     -   Involved in MDT Major Limb Amputee Pathway including contributing to patient pathway booklet for SVUH. 
-    -  See patients requiring variety of dietetic interventions including food fortification, renal diet, oral nutritional supplements, enteral feeding and total parenteral nutrition. 
-    -  Liaise with community dietitians and other hospitals regarding patient transfer / handover.
+    -   See patients requiring variety of dietetic interventions including food fortification, renal diet, oral nutritional supplements, enteral feeding and total parenteral nutrition. 
+    -   Liaise with community dietitians and other hospitals regarding patient transfer / handover.
 
-*   **7digital** (London)
+*   **North Middlesex University Hospital** (London N18 1QX)
 
-    7digital is mainly a B2B music provider of 50 million+ tracks and radio streams to a global audience
+    *Band 6 Paediatric Dietitian*, June 2015 - Nov 2016
 
-    *Web Operations Engineer*, June 2015 - Nov 2016
+    -   Worked as a full time Paediatric Dietitian as part of a four member team in North London which is a secondary healthcare centre. My team members included specialist Neonatal, Diabetes and Allergy Dietitians whom I liaised with regarding complex patients and also have opportunity to shadow and appreciate the value of peer support. 
+    -   I screened and assessed patients in these areas when my team may be on annual leave and when weekend working. 
+    -   I have always had a keen interest in dietetics and would enjoy building on my transferable dietetic skills and working with adults.
+    -   Evidence-based strategies were employed in my formulation of care planning regarding weight management, nutrition support, food allergy, T1DM, NG NJ, PEG and PEG-J feeding. 
+    -   The practice involved multidisciplinary meetings and liaising with patients and their parents / carers, GPs, consultants, nurses and other allied health professionals, particularly Speech and Language Therapy.
+    -   I regularly attend ward rounds with the medical team where I screen patients and also participate in discharge planning meetings when appropriate. On a daily basis I clearly, concisely and effectively communicate using appropriate methods with patients, carers and other professionals while ensuring confidentiality is maintained. 
+    -   Based in an area with a diverse range of ethnicities where I encounter people with varying backgrounds and cultures. I enjoyed the challenge of adapting my teaching and education skills in order to clearly, effectively and safely convey important and relevant information to patients, parents, family members and carers to ensure the best possible outcome for service users. 
+    -   Weekend working involved close liaison with the medical team and ward staff and ensuring effective handover and communication with my colleagues for safe continuing care of service users.
 
-    Building, testing, managing and improving the full range of 7digital's
-    physical, virtual and cloud based infrastructure. 
-    -   Loadbalancing with Nginx, HAProxy, Keepalived
-    -   Nginx, apache and IIS web servers
-    -   Cache management with squid, varnish and Fastly CDN
-    -   Windows and Linux server administration
-    -   Strong emphasis on Continuous Integration / Delivery
-    -   Physical, virtual (KVM, ESXi, IMS) and cloud (AWS, Google) infrastructure
-    -   Automation with Chef and CFEngine
-    -   Networking (Cisco, Juniper, Iptables)
-    -   Building & maintaining large scale storage (Dell MD, GlusterFS, Google cloud storage)
-    -   Migrated old hardware to services running in AWS, and Google cloud
-    -   Managing & improving our logging platform (Redis, Logstash, Elasticsearch)
-    -   Diagnosing problems using Zabbix, application logs, kibana, grafana and other sources of metrics
-    -   Participated in 24/7 on-call rotation
-    -   A small, agile team, collaborating with each other and the company
-     as a whole
+\pagebreak
 
-*   **Citrix** (Dublin)
+*   **Dumfries&Galloway Royal Infirmary** (Dumfries, Scotland DG1 4AP)
 
-    Citrix have a broad range of products enabling people to work from any device anywhere.
 
-    *Escalation Engineer \*nix *, Jun 2014 - May 2015
+    *Band 5 Paediatric Dietitian*, Jan 2014 - Feb 2015
 
-    -   Worked as a bridge between the dev teams and end customers.
-    -   Debugging for the Citrix suite of products that ran on Linux, Solaris and AIX
-    -   Xenserver virtualization and VMware ESXi
-    -   Storage: Fibre channel,HBA & software iSCSI, NFS, CIFS 
-    -   Hardware, driver and OS bug finding and workarounds
-    -   Orchestration with Cloudplatform
-    -   Linux, Android, MacOS and OSX receivers for XenApp/XenDesktop 
-    -   Network fault finding from the internet into internal corporate networks, TLS/SSL
-    -   Languages involved: Python, Bash, Java, OCaml
+     My first post as a newly qualified Dietitian was as part of a four-member team in a hospital in Scotland.
 
-    *Escalation Engineer Cloudplatform*, Oct 2013 -Jun 2014
+     -   A large proportion of my case load involved organising outpatient clinics where I assessed, educated and advised children and their families on an individual basis.
+     -   The role covered a large geographical area where I facilitated outpatient clinics within and out with the hospital premises. 
+     -   This post also involved liaising with the tertiary centre in Glasgow regarding renal, hepatology, cystic fibrosis and gastroenterology patients. 
+     -   My main role was as the ward Dietitian where I screened new patients and also known community patients whom I discussed with my colleagues to review and update plans. 
+     -   I supported patients requiring home enteral feeding and long-term follow up.
 
-    -   Dedicated Escalation Engineer for select enterprise EMEA customers
-    -   Managing hot issues, prioritising cases and bugs with the dev teams
 
-    *Senior Xen/Unix Support Engineer*, Aug 2011 - Oct 2013  
+Clinical Experience
+---------
 
-    -   Worked on support issue directly with partners and customers.
-    -   Initial fault finding, fixing and RCA on the same products as suite as above.
+*   **B Placement: Glan Clywd Hospital** (Rhyl, Wales), Jan - Apr 2012
 
-*   **Amazon Data Services** (Dublin)
-
-    Amazon, the online retail and cloud computing giant.
-
-    *Datacentre engineer*, Mar 2011 - Aug 2011 
-
-    -   Fault finding in hardware, using linux tools to inspect hardware
-    -   Fixing the above systems
-    -   Responding to emergency situations in a 24/7 environment
-    -   Managing spare parts
-    -   Physical systems installation, racks, power, network, etc.
-
-*   **LM Ericsson** (Dublin)
-
-    Ericsson provide telecommunications equipment and services globally.
-
-    *Solutions Integration Engineer*, Sep 2007 - Oct 2010
-
-    Local building and onsite installation of hardware and integration into networks of Lawful Interpect equipment.
-
-    -   Solaris (Sparc and x86)
-    -   SuSe Enterprise x86
-    -   Network debugging
-    -   Acceptance testing with customers
-    -   Provided training both "on the job" and in class rooms
-    -   Hardware ordering and building
+*   **C Placement: University Hospital Wales** (Cardiff, Wales), Aug - Oct 2012
 
 Education
 ---------
 
-*   **Kevin St. DIT** (Dublin)
+*   **Cardiff Metropolitan University** (Cardiff)
 
-    *BSc Hons 2:1, Computer Science (FT-228)*,  2003-2007
+    *BSc Hons 1st, Human Nutrition and Dietetics*  2009-2013
 
+*   **NUI Galway** (Galway)
+
+    *BEng 2:2, Biomedical Engineering*  2003-2007
 
 Hobbies
 ------
 
-*   Practicing python, automating systems, letting computers do the work
-
-*   Staying active, whether it be going to the gym, running or cycling.
-
-*   Small scale electronics and building systems from them
-
-*   Bicycles and motorbikes, using, fixing and building
-
-*   PC gaming, but it's low on my priority list
+*   Clinical dietetics
+*   Movies
+*   Swimming
+*   Cycling
+*   Reading
+*   Roller-blading
