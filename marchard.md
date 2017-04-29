@@ -9,7 +9,7 @@ Work Experience
 
 *   **St. Vincents University Hospital** (Dublin)
 
-    *Dietitian*, Nov 2016 - Present
+    *Dietitian*, Nov 2016 - Presnt
 
     Dietitian
     -   Surgical Dietitian covering adult inpatients including vascular, urology, gynacology, plastics, ENT and oncology specialities (0.7WTE).
