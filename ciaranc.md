@@ -25,9 +25,9 @@ Work Experience
     *DevOps Engineer*, Nov 2016 - Present
 
     Part of a small team that manages all of the infrastructure and deployment needs of the company
-    -   AWS configuartion via Terraform
-    -   Instance configuartion with SaltStack and Jinja templates
-    -   Code Deployemnts with Fabric
+    -   AWS configuration via Terraform
+    -   Instance configuration with SaltStack and Jinja templates
+    -   Code Deployments with Fabric
     -   Tests suites and deployments with Jenkins
     -   Infrastructure monitoring via Prometheus
     -   Security monitoring via Alertlogic
@@ -40,7 +40,7 @@ Work Experience
     *Web Operations Engineer*, June 2015 - Nov 2016
 
     Building, testing, managing and improving the full range of 7digital's
-    physical, virtual and cloud based infrastructure. 
+    physical, virtual and cloud based infrastructure.
     -   Loadbalancing with Nginx, HAProxy, Keepalived
     -   Nginx, apache and IIS web servers
     -   Cache management with squid, varnish and Fastly CDN
@@ -66,10 +66,10 @@ Work Experience
     -   Worked as a bridge between the dev teams and end customers.
     -   Debugging for the Citrix suite of products that ran on Linux, Solaris and AIX
     -   Xenserver virtualization and VMware ESXi
-    -   Storage: Fibre channel,HBA & software iSCSI, NFS, CIFS 
+    -   Storage: Fibre channel,HBA & software iSCSI, NFS, CIFS
     -   Hardware, driver and OS bug finding and workarounds
     -   Orchestration with Cloudplatform
-    -   Linux, Android, MacOS and OSX receivers for XenApp/XenDesktop 
+    -   Linux, Android, MacOS and OSX receivers for XenApp/XenDesktop
     -   Network fault finding from the internet into internal corporate networks, TLS/SSL
     -   Languages involved: Python, Bash, Java, OCaml
 
@@ -87,7 +87,7 @@ Work Experience
 
     Amazon, the online retail and cloud computing giant.
 
-    *Datacentre engineer*, Mar 2011 - Aug 2011 
+    *Datacentre engineer*, Mar 2011 - Aug 2011
 
     -   Fault finding in hardware, using linux tools to inspect hardware
     -   Fixing the above systems
@@ -101,13 +101,13 @@ Work Experience
 
     *Solutions Integration Engineer*, Sep 2007 - Oct 2010
 
-    Local building and onsite installation of hardware and integration into networks of Lawful Interpect equipment.
+    Local building and onsite installation of hardware and integration into networks of Lawful Intercept equipment.
 
     -   Solaris (Sparc and x86)
     -   SuSe Enterprise x86
     -   Network debugging
     -   Acceptance testing with customers
-    -   Provided training both "on the job" and in class rooms
+    -   Provided training both "on the job" and in classrooms
     -   Hardware ordering and building
 
 Education
@@ -130,3 +130,5 @@ Hobbies
 *   Bicycles and motorbikes, using, fixing and building
 
 *   PC gaming, but it's low on my priority list
+
+
