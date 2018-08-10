@@ -26,6 +26,7 @@ Work Experience
 
     Part of a small team that manages all of the infrastructure and deployment needs of the company
     -   AWS configuration via Terraform
+    -   Mix of contianers under kubernetes and "legacy" apps on plain ubuntu
     -   Instance configuration with SaltStack and Jinja templates
     -   Code Deployments with Fabric
     -   Tests suites and deployments with Jenkins
