@@ -38,6 +38,7 @@ Work Experience
     - Managing budgets for various cloud providers
     - Migration from prometheus to Datadog
     - Database migrations across major versions without downtime
+    - Staying on top of all system updates, e.g. Alpine, K8S versions etc.
   
     *Senior SRE*, Nov 2016 - Dec 2021
 
