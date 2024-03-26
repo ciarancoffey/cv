@@ -21,8 +21,25 @@ Work Experience
 *   **RapidRatings International** (Dublin)
 
     RapidRatings is the creator of the proprietary FHR® (Financial Health Rating), the industry’s leading assessment of public and private company financial health.
+  
+    *SRE Manager*, Mar 2023 - Present
+    In addition to all of the below:
+    - Managing SOC 2 and ISO27001 audits
+    - Bridge between Senior and Executive Leadership Teams and SRE
+    - Managing staffing budgets for the team
 
-    *DevOps Engineer*, Nov 2016 - Present
+    *Lead SRE*, Jan 2022 - Mar 2023
+
+    In addition to all of the below:
+    - Mentorship and guidance for other team members
+    - Removal of all legacy systems
+    - Introduction of helm for k8s
+    - Fully implemented IAC for all environments
+    - Managing budgets for various cloud providers
+    - Migration from prometheus to Datadog
+    - Database migrations across major versions without downtime
+  
+    *Senior SRE*, Nov 2016 - Dec 2021
 
     Part of a small team that manages all of the infrastructure and deployment needs of the company
     -   AWS configuration via Terraform
@@ -100,9 +117,7 @@ Work Experience
 
     Ericsson provide telecommunications equipment and services globally.
 
-    *Solutions Integration Engineer*, Sep 2007 - Oct 2010
-
-    Local building and onsite installation of hardware and integration into networks of Lawful Intercept equipment.
+    *Solutions Integration Engineer*, Sep 2007 - Oct 2010    Local building and onsite installation of hardware and integration into networks of Lawful Intercept equipment.
 
     -   Solaris (Sparc and x86)
     -   SuSe Enterprise x86
@@ -122,7 +137,6 @@ Education
 Hobbies
 ------
 
-*   Practicing python, automating systems, letting computers do the work
 
 *   Staying active, whether it be going to the gym, running or cycling.
 
@@ -130,6 +144,6 @@ Hobbies
 
 *   Bicycles and motorbikes, using, fixing and building
 
-*   PC gaming, but it's low on my priority list
+*   Practicing python, automating systems, letting computers do the work
 
 
