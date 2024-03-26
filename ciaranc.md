@@ -23,6 +23,7 @@ Work Experience
     RapidRatings is the creator of the proprietary FHR® (Financial Health Rating), the industry’s leading assessment of public and private company financial health.
   
     *SRE Manager*, Mar 2023 - Present
+
     In addition to all of the below:
     - Managing SOC 2 and ISO27001 audits
     - Bridge between Senior and Executive Leadership Teams and SRE
@@ -141,10 +142,4 @@ Hobbies
 
 *   Staying active, whether it be going to the gym, running or cycling.
 
-*   Small scale electronics and building systems from them
-
 *   Bicycles and motorbikes, using, fixing and building
-
-*   Practicing python, automating systems, letting computers do the work
-
-
