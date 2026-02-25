@@ -8,11 +8,11 @@ Ciarán Coffey
 Profile
 ---------
 
-
-* I am passionate about reliable systems.
-  I believe in automation and defining infrastructure as code.
- I enjoy working with my colleagues to solve issues using the appropriate
-tools.
+* SRE Manager with 18+ years of experience in infrastructure, platform engineering, and operations.
+  I lead a team responsible for the full lifecycle of a Kubernetes-based platform on AWS, serving a
+  global fintech SaaS product. I am passionate about reliability, automation, and defining
+  infrastructure as code. I have a strong track record in compliance (SOC 2, ISO 27001), cost
+  management, and building developer-focused platform tooling.
 
 
 Work Experience
@@ -21,34 +21,38 @@ Work Experience
 *   **RapidRatings International** (Dublin)
 
     RapidRatings is the creator of the proprietary FHR® (Financial Health Rating), the industry’s leading assessment of public and private company financial health.
-  
+
     *SRE Manager*, Mar 2023 - Present
 
-    In addition to all of the below:
-    - Managing SOC 2 and ISO27001 audits
-    - Bridge between Senior and Executive Leadership Teams and SRE
-    - Managing staffing budgets for the team
+    Leading a team of SREs with end-to-end ownership of all production and non-production infrastructure supporting a global SaaS platform.
+    - Sole engineering owner of SOC 2 and ISO 27001 audit processes for ~3 years, liaising directly with auditors and ensuring continuous compliance
+    - Bridge between Senior/Executive Leadership and SRE; translating business requirements into platform strategy
+    - AWS cost management and optimisation within defined budgets, continuously identifying waste reduction and more cost-effective architectural choices
+    - Manage staffing and operational budgets for the SRE function
+    - Achieved 100% measured uptime across production services
+    - Architected on-demand Kubernetes namespace provisioning via GitHub Actions, enabling ~40 developers to deploy feature branches with a single PR comment
+    - Implemented Traefik ingress with Linkerd service mesh, including IP whitelisting tiers for internal, restricted, and public traffic
+    - Fully automated deployment pipelines using GitOps workflows across dev, staging, and production environments
+    - Observability and monitoring via Datadog and Sentry with alerting and SLO tracking
 
     *Lead SRE*, Jan 2022 - Mar 2023
 
-    In addition to all of the below:
-    - Mentorship and guidance for other team members
-    - Removal of all legacy systems
-    - Introduction of helm for k8s
-    - Fully implemented IAC for all environments
-    - Managing budgets for various cloud providers
-    - Migration from prometheus to Datadog
-    - Database migrations across major versions without downtime
-    - Staying on top of all system updates, e.g. Alpine, K8S versions etc.
-  
+    Technical lead driving the modernisation of infrastructure and operational practices.
+    - Led the full migration from legacy EC2/Fabric-based deployments to Kubernetes with custom Helm charts
+    - Designed and implemented Infrastructure as Code (Terraform) across all environments
+    - Migrated observability stack from Prometheus to Datadog
+    - Performed zero-downtime PostgreSQL major version upgrades on RDS
+    - Mentorship and technical guidance for other team members
+    - Managed cloud provider budgets and cost forecasting
+    - Maintained platform currency: Kubernetes, Alpine, and dependency version upgrades
+
     *Senior SRE*, Nov 2016 - Dec 2021
 
-    Part of a small team that manages all of the infrastructure and deployment needs of the company
-    -   AWS configuration via Terraform
-    -   Mix of contianers under kubernetes and "legacy" apps on plain ubuntu
+    Part of a small team managing all infrastructure and deployment needs of the company.
+    -   AWS infrastructure provisioned and managed via Terraform
+    -   Kubernetes platform build-out, containerising applications and migrating from persistent EC2 instances
     -   Instance configuration with SaltStack and Jinja templates
-    -   Code Deployments with Fabric
-    -   Tests suites and deployments with Jenkins
+    -   CI/CD pipelines with Jenkins; application deployments with Fabric
     -   Infrastructure monitoring via Prometheus
     -   Security monitoring via Alertlogic
     -   Participated in 24/7 on-call rotation
@@ -59,23 +63,13 @@ Work Experience
 
     *Web Operations Engineer*, June 2015 - Nov 2016
 
-    Building, testing, managing and improving the full range of 7digital's
-    physical, virtual and cloud based infrastructure.
-    -   Loadbalancing with Nginx, HAProxy, Keepalived
-    -   Nginx, apache and IIS web servers
-    -   Cache management with squid, varnish and Fastly CDN
-    -   Windows and Linux server administration
-    -   Strong emphasis on Continuous Integration / Delivery
-    -   Physical, virtual (KVM, ESXi, IMS) and cloud (AWS, Google) infrastructure
-    -   Automation with Chef and CFEngine
-    -   Networking (Cisco, Juniper, Iptables)
-    -   Building & maintaining large scale storage (Dell MD, GlusterFS, Google cloud storage)
-    -   Migrated old hardware to services running in AWS, and Google cloud
-    -   Managing & improving our logging platform (Redis, Logstash, Elasticsearch)
-    -   Diagnosing problems using Zabbix, application logs, kibana, grafana and other sources of metrics
-    -   Participated in 24/7 on-call rotation
-    -   A small, agile team, collaborating with each other and the company
-     as a whole
+    Building, testing, managing and improving 7digital's physical, virtual, and cloud infrastructure.
+    -   Migrated legacy hardware to AWS and Google Cloud
+    -   Load balancing (Nginx, HAProxy, Keepalived) and CDN management (Fastly, Varnish)
+    -   Automation with Chef and CFEngine; CI/CD pipelines
+    -   Physical, virtual (KVM, ESXi), and cloud (AWS, Google) infrastructure
+    -   Large-scale storage (Dell MD, GlusterFS, Google Cloud Storage)
+    -   Logging and observability: ELK stack, Zabbix, Grafana
 
 *   **Citrix** (Dublin)
 
@@ -83,50 +77,36 @@ Work Experience
 
     *Escalation Engineer \*nix *, Jun 2014 - May 2015
 
-    -   Worked as a bridge between the dev teams and end customers.
-    -   Debugging for the Citrix suite of products that ran on Linux, Solaris and AIX
-    -   Xenserver virtualization and VMware ESXi
-    -   Storage: Fibre channel,HBA & software iSCSI, NFS, CIFS
-    -   Hardware, driver and OS bug finding and workarounds
-    -   Orchestration with Cloudplatform
-    -   Linux, Android, MacOS and OSX receivers for XenApp/XenDesktop
-    -   Network fault finding from the internet into internal corporate networks, TLS/SSL
-    -   Languages involved: Python, Bash, Java, OCaml
+    -   Bridge between development teams and enterprise customers for escalated issues
+    -   Debugging across Linux, Solaris, and AIX for the Citrix product suite
+    -   XenServer and VMware ESXi virtualisation; storage (FC, iSCSI, NFS, CIFS)
+    -   Cloud orchestration with CloudPlatform
+    -   Network fault finding, TLS/SSL debugging
 
-    *Escalation Engineer Cloudplatform*, Oct 2013 -Jun 2014
+    *Escalation Engineer Cloudplatform*, Oct 2013 - Jun 2014
 
     -   Dedicated Escalation Engineer for select enterprise EMEA customers
     -   Managing hot issues, prioritising cases and bugs with the dev teams
 
-    *Senior Xen/Unix Support Engineer*, Aug 2011 - Oct 2013  
+    *Senior Xen/Unix Support Engineer*, Aug 2011 - Oct 2013
 
-    -   Worked on support issue directly with partners and customers.
-    -   Initial fault finding, fixing and RCA on the same products as suite as above.
+    -   Direct support for partners and customers; fault finding, fixing, and RCA
 
 *   **Amazon Data Services** (Dublin)
 
-    Amazon, the online retail and cloud computing giant.
+    *Datacentre Engineer*, Mar 2011 - Aug 2011
 
-    *Datacentre engineer*, Mar 2011 - Aug 2011
-
-    -   Fault finding in hardware, using linux tools to inspect hardware
-    -   Fixing the above systems
-    -   Responding to emergency situations in a 24/7 environment
-    -   Managing spare parts
-    -   Physical systems installation, racks, power, network, etc.
+    -   Hardware fault finding and repair in a 24/7 datacentre environment
+    -   Physical systems installation: racks, power, networking
 
 *   **LM Ericsson** (Dublin)
 
-    Ericsson provide telecommunications equipment and services globally.
+    *Solutions Integration Engineer*, Sep 2007 - Oct 2010
 
-    *Solutions Integration Engineer*, Sep 2007 - Oct 2010    Local building and onsite installation of hardware and integration into networks of Lawful Intercept equipment.
-
-    -   Solaris (Sparc and x86)
-    -   SuSe Enterprise x86
-    -   Network debugging
-    -   Acceptance testing with customers
-    -   Provided training both "on the job" and in classrooms
-    -   Hardware ordering and building
+    Local building and onsite installation of hardware and integration into telecommunications networks.
+    -   Solaris (Sparc and x86), SuSe Enterprise
+    -   Network debugging and acceptance testing with customers
+    -   Provided training both on the job and in classrooms
 
 Education
 ---------
@@ -140,6 +120,6 @@ Hobbies
 ------
 
 
-*   Staying active, whether it be going to the gym, running or cycling.
+*   Staying active: running, cycling, walking
 
-*   Bicycles and motorbikes, using, fixing and building
+*   Keen DIYer: plumbing, electrical, tiling, carpentry
