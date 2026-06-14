@@ -1,20 +1,21 @@
 SRC = $(wildcard *.md)
 
-PDFS=$(SRC:.md=.pdf)
-HTML=$(SRC:.md=.html)
-LATEX_TEMPLATE=./pandoc-templates/default.latex
+PDFS = $(SRC:.md=.pdf)
+HTML = $(SRC:.md=.html)
+
+# Page geometry. Vertical (top/bottom) kept tight to fit content; horizontal a bit wider.
+PANDOCARGS = -V geometry:top=0.5in -V geometry:bottom=0.5in -V geometry:left=0.9in -V geometry:right=0.9in
 
 all:    clean $(PDFS) $(HTML)
 
 pdf:   clean $(PDFS)
 html:  clean $(HTML)
 
-%.html: %.md
-	python2 resume.py html $(GRAVATAR_OPTION) < $< | pandoc -t html -c resume.css -o $@
+%.pdf:  %.md header.tex
+	pandoc $< $(PANDOCARGS) -H header.tex -o $@
 
-%.pdf:  %.md $(LATEX_TEMPLATE)
-	python2 resume.py tex < $< | pandoc $(PANDOCARGS) --template=$(LATEX_TEMPLATE) -H header.tex -o $@
-	python2 resume.py tex < $< | pandoc $(PANDOCARGS) --template=$(LATEX_TEMPLATE) -H header.tex -o $@.tex
+%.html: %.md
+	pandoc $< -s -c resume.css -o $@
 
 ifeq ($(OS),Windows_NT)
   # on Windows
@@ -25,7 +26,4 @@ else
 endif
 
 clean:
-	$(RM) *.html *.pdf *.pdf.tex
-
-$(LATEX_TEMPLATE):
-	git submodule update --init
+	$(RM) *.html *.pdf
